@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OrbitFlow | School Equipment Management</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f7fb;
+            color: #142d4e;
+            display: grid;
+            place-content: center;
+            min-height: 100vh;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h2>Opening OrbitFlow...</h2>
+    <p>Please wait while we redirect you.</p>
+    <a id="fallback" href="#">Open OrbitFlow manually</a>
+
+    <script>
+        const destination =
+            "https://reverse-vampire-changes-talk.trycloudflare.com/";
+
+        document.getElementById("fallback").href = destination;
+        window.location.replace(destination);
+    </script>
+</body>
+</html>
